@@ -1,0 +1,163 @@
+
+/*------------------Colours---------------------*/
+
+.bg-color-header {
+    background-color: #285fd5;
+}
+
+.bg-color-footer {
+    background-color: #285fd5;
+}
+
+
+/*------------------Headings--------------------*/
+
+header {
+    margin: 0;
+}
+
+.header-logo {
+    height: 100%;
+    width: 100%;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+
+.header-image {
+    height: 100%;
+    width: 100%;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+
+/*------------------Home----------------------*/
+
+.content {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+#img1 {
+    float: left;
+    margin-right: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+#img2 {
+    float: right;
+    margin-left: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+#img3 {
+    float: left;
+    margin-right: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+/*------------------Video----------------------*/
+
+h2 {
+    font-size: 40px;
+    padding: 50px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.video-styling {
+    display: block;
+    padding: 50px;
+    margin: 30px auto;
+}
+
+.more-video {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.more-video a:hover {
+    color: #fe0000;
+}
+
+/*------------------Contacts-------------------*/
+
+#fname {
+    padding: 10px;
+    margin: 10px;
+}
+
+#lname {
+    padding: 10px;
+    margin: 10px;
+}
+
+#email {
+    padding: 10px;
+    margin: 10px;
+}
+
+.more-contacts {
+    font-size: 30px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.more-contacts a:hover {
+    color: #fe0000;
+}
+
+/*------------------Footer---------------------*/
+
+footer {
+    margin: 0;
+}
+
+.footer-image {
+    height: 100%;
+    width: 100%;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+
+.heading {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+.heading:hover {
+    color: #fe0000;
+}
+
+.social-links {
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+
+.social-links li a i {
+    padding: 25px;
+    margin: 25px;
+    font-size: 35px;
+    line-height: 25px;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #86a8f1;
+}
+
+.social-links li a i:hover {
+    color: #fe0000;
+    background-color: #ffffff;
+    transform: rotate(360deg);
+    transition: 1s ease-in-out;
+}
