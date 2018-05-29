@@ -17,17 +17,25 @@ header {
 }
 
 .header-logo {
-    height: 100%;
+    
     width: 100%;
     padding: 20px 10px;
     margin: 0 auto;
 }
 
 .header-image {
-    height: 100%;
+  
     width: 100%;
     padding: 20px 10px;
     margin: 0 auto;
+}
+
+h2 {
+    font-size: 35px;
+    padding: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 /*------------------Home----------------------*/
@@ -63,15 +71,8 @@ header {
 
 /*------------------Video----------------------*/
 
-h2 {
-    font-size: 40px;
-    padding: 50px;
-    text-transform: uppercase;
-    text-decoration: underline;
-}
-
 .video-styling {
-    display: block;
+    width: 100%;
     padding: 50px;
     margin: 30px auto;
 }
@@ -90,23 +91,24 @@ h2 {
 /*------------------Contacts-------------------*/
 
 #fname {
-    padding: 10px;
+   /*padding: 10px;*/
     margin: 10px;
 }
 
 #lname {
-    padding: 10px;
+    /*padding: 10px;*/
     margin: 10px;
 }
 
 #email {
-    padding: 10px;
+    /*padding: 10px;*/
     margin: 10px;
 }
 
 .more-contacts {
-    font-size: 30px;
-    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+   /* padding: 20px;*/
     margin: 30px;
 }
 
