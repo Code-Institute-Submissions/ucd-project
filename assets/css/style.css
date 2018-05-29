@@ -69,6 +69,24 @@ h2 {
     width: 200px;
 }
 
+/*------------------Audio----------------------*/
+
+.audio-style {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .audio-style {
+     white-space: pre-line;  
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .audio-style {
+     white-space: nowrap;  
+    }
+}
+
 /*------------------Video----------------------*/
 
 .video-styling {
