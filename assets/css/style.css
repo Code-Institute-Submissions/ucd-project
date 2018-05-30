@@ -6,7 +6,24 @@
 }
 
 .content-color {
-    background-color: #ffffff;
+    background-color: #eaf0f7;
+}
+
+@media screen and (max-width: 768px) {
+    .content-color {
+        border-left: 3vw #285fd5 solid;
+        border-right: 3vw #285fd5 solid;
+    }
+}
+
+.audio-content-color {
+    background-color: #eaf0f7;
+    border-left: 3vw #285fd5 solid;
+    border-right: 3vw #285fd5 solid;
+}
+
+.contact-content-color {
+    background-color: #eaf0f7;
 }
 
 /*------------------Headings--------------------*/
@@ -88,22 +105,14 @@ h2 {
 
 /*------------------Audio----------------------*/
 
-.audio-style {
+.audio-layout {
     text-align: center;
-    padding-right: 50px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-@media screen and (min-width: 768px) {
-    .audio-style {
-     white-space: pre-line;  
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .audio-style {
-     white-space: nowrap;  
-    }
-}
 
 /*------------------Video----------------------*/
 
