@@ -9,21 +9,10 @@
     background-color: #eaf0f7;
 }
 
-@media screen and (max-width: 768px) {
-    .content-color {
-        border-left: 3vw #285fd5 solid;
-        border-right: 3vw #285fd5 solid;
-    }
-}
-
 .audio-content-color {
     background-color: #eaf0f7;
     border-left: 3vw #285fd5 solid;
     border-right: 3vw #285fd5 solid;
-}
-
-.contact-content-color {
-    background-color: #eaf0f7;
 }
 
 /*------------------Headings--------------------*/
@@ -42,10 +31,6 @@ header {
     margin: 0 auto;
 }
 
-img {
-    max-height: 300px;
-}
-
 h2 {
     font-size: 35px;
     padding: 50px;
@@ -60,6 +45,7 @@ h2 {
     height: 70px;
     border-radius: 0;
     background-color: #fe0000;
+    font-size: 25px;
 }
 
 .nav li {
@@ -150,7 +136,7 @@ h2 {
 .more-contacts {
     text-align: center;
     font-size: 20px;
-    margin: 30px;
+    margin: 30px 10px;
 }
 
 .more-contacts a:hover {
@@ -165,7 +151,7 @@ footer {
 
 .footer-image {
     padding: 20px 10px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .heading {
@@ -192,7 +178,7 @@ footer {
 .social-links li a i {
     padding: 20px;
     margin: 20px;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 20px;
     border-radius: 50%;
     color: #ffffff;
@@ -204,4 +190,13 @@ footer {
     background-color: #ffffff;
     transform: rotate(360deg);
     transition: 1s ease-in-out;
+}
+
+/*-----------------Media Queries----------------*/
+
+@media screen and (max-width: 768px) {
+    .content-color {
+        border-left: 3vw #285fd5 solid;
+        border-right: 3vw #285fd5 solid;
+    }
 }
