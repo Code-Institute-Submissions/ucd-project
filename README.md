@@ -37,7 +37,7 @@ provide style and transition features to the social media links.
 
 The content of the home page provides fans with information as to the band's origin and
 incorporates images of the band themselves and on-stage. The home page is written in HTML
-with CSS styling to position images within the text.
+with Bootstrap and CSS styling to position images within the text.
 
 ### The Audio Page
 
@@ -57,6 +57,5 @@ styling to centre the content.
 
 The content of the contact page provides fans with a variety of means to get in touch with
 the band and ask any questions and leave any messages if desired. The contact page is written
-using the Bootstrap framework to provide a responsive layout for different size devices. The 
-contact form uses nested columns within the main Bootstrap framework. Additional CSS styling
-is used to centre content.
+using the Bootstrap framework to provide a responsive layout for different size devices. 
+Additional CSS styling is used to centre content.
