@@ -11,16 +11,20 @@ the band's videos. Links are provided to further social media content regarding
 songs and videos. The webpage, also, provides the opportunity to contact the band
 through a variety of means.
 
+Wireframes for this website can be found [here](/ucd-wireframes.pdf)
+
 ### Common Features
 
 #### Technologies Used
 
-[HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)  
-   * Used to define the webpages.  
-[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)  
+[HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+   * Used to define the webpages.
+
+[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
    * Used to apply styles, colours etc to webpages.
-[Bootstrap](https://getbootstrap.com/docs/3.3/)  
-   * Framework used to provide a responsive, mobile first design for the webpages. 
+
+[Bootstrap](https://getbootstrap.com/docs/3.3/)
+   * Framework used to provide a responsive, mobile first design for the webpages.
 
 #### The Header
 
@@ -99,6 +103,10 @@ to prove the responsive, mobile first design and the correct operation of CSS me
 The contact form was tested to prove that an error message is displayed if no content is entered
 into either name field or the email address field. The email address was tested to prove the 
 content entered was in the form of a valid email address.
+
+### Deployment
+
+The webpage is deployed on github pages here https://geoffdoig.github.io/ucd-project/
 
 ### Credits
 
