@@ -13,6 +13,15 @@ through a variety of means.
 
 ### Common Features
 
+#### Technologies Used
+
+[HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)  
+   * Used to define the webpages.  
+[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)  
+   * Used to apply styles, colours etc to webpages.
+[Bootstrap](https://getbootstrap.com/docs/3.3/)  
+   * Framework used to provide a responsive, mobile first design for the webpages. 
+
 #### The Header
 
 The page header is written using the Bootstrap framework to provide responsive images
@@ -59,3 +68,42 @@ The content of the contact page provides fans with a variety of means to get in 
 the band and ask any questions and leave any messages if desired. The contact page is written
 using the Bootstrap framework to provide a responsive layout for different size devices. 
 Additional CSS styling is used to centre content.
+
+### Testing
+
+##### The Home Page
+
+The Home Page was tested by running in a browser window to ensure it displays correctly. All  
+links were clicked on to ensure correct operation and accuracy. The browser window was re-sized  
+to prove the responsive, mobile first design and the correct operation of CSS media queries.
+
+##### The Audio Page
+
+The Audio Page was tested by running in a browser window to ensure it displays correctly. Each  
+audio file displayed was clicked on to ensure the music played correctly. All links were clicked  
+on to ensure correct operation and accuracy. The browser window was re-sized to prove  
+the responsive, mobile first design and the correct operation of CSS media queries.
+
+##### The Video Page
+
+The Video Page was tested by running in a browser window to ensure it displays correctly. The  
+video file displayed was clicked on to ensure the music video played correctly. All links were  
+clicked on to ensure correct operation and accuracy. The browser window was re-sized to prove  
+the responsive, mobile first design and the correct operation of CSS media queries.
+
+##### The Contact Page
+
+The Contact Page was tested by running in a browser window to ensure it displays correctly. All  
+links were clicked on to ensure correct operation and accuracy. The browser window was re-sized  
+to prove the responsive, mobile first design and the correct operation of CSS media queries.
+The contact form was tested to prove that an error message is displayed if no content is entered
+into either name field or the email address field. The email address was tested to prove the 
+content entered was in the form of a valid email address.
+
+### Credits
+
+* __Content__ The text for the band's biography was copied from  
+ [The Monkees Wikipedia article](https://en.wikipedia.org/wiki/The_Monkees)  
+
+* __Media__  Images, audio files and video file were provided for use in the project by  
+ Code Institute. Additional images were sourced from a Google internet search for The Monkees.
